@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "Tools for sigeco",
     "license": "MIT",
-    "homepage": "https://sigeco.biz",
+    "homepage": "https://github.com/juanmaabanto/sigeco-tools",
     "main": "dist/index.js",
     "module": "dist/index.es.js",
     "types": "dist/index.d.ts",
@@ -13,7 +13,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://dev.azure.com/xpertec/Sigeco/_git/SigecoTools"
+        "url": "https://github.com/juanmaabanto/sigeco-tools"
     },
     "keywords": [
         "material-ui",
