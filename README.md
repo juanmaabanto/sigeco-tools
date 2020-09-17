@@ -1,4 +1,8 @@
-# sigeco-tools
+# @sigeco/tools
+[![npm downloads](https://img.shields.io/npm/dt/@sigeco/tools.svg?maxAge=2592000)](http://npmjs.com/package/@sigeco/tools)
+[![gzip size](https://img.badgesize.io/https:/npmcdn.com/@sigeco/tools/dist/sigeco-tools.umd.min.js?compression=gzip)]()
+[![version](https://img.shields.io/npm/v/@sigeco/tools.svg)]()
+
 additional tools in react
 
 ## Installation
@@ -26,3 +30,6 @@ https://cdn.jsdelivr.net/npm/@sigeco/tools@latest/dist/sigeco-tools.umd.js
 
 https://cdn.jsdelivr.net/npm/@sigeco/tools@latest/dist/sigeco-tools.umd.min.js
 ```
+
+### Table API
+
