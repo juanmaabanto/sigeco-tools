@@ -13,10 +13,11 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/juanmaabanto/sigeco-tools"
+        "url": "https://github.com/juanmaabanto/sigeco-tools",
+        "directory": "packages/sigeco-tools"
     },
-    "publishConfig": { 
-        "registry": "https://npm.pkg.github.com/" 
+    "bugs": {
+        "url": "https://github.com/juanmaabanto/sigeco-tools/issues"
     },
     "keywords": [
         "material-ui",
