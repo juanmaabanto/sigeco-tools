@@ -24,12 +24,14 @@ const globals = {
   '@material-ui/core/CircularProgress': 'MaterialUI.CircularProgress',
   '@material-ui/core/Icon': 'MaterialUI.Icon',
   '@material-ui/core/IconButton': 'MaterialUI.IconButton',
+  '@material-ui/core/InputAdornment': 'MaterialUI.InputAdornment',
   '@material-ui/core/MenuItem': 'MaterialUI.MenuItem',
   '@material-ui/core/Paper': 'MaterialUI.Paper',
   '@material-ui/core/Select': 'MaterialUI.Select',
   '@material-ui/core/styles': 'MaterialUI',
-  '@material-ui/core/styles/makeStyles': 'MaterialUI.makeStyles',
+  '@material-ui/core/styles/withStyles': 'MaterialUI.withStyles',
   '@material-ui/core/TableSortLabel': 'MaterialUI.TableSortLabel',
+  '@material-ui/core/TextField': 'MaterialUI.TextField',
   '@material-ui/core/Tooltip': 'MaterialUI.Tooltip'
 };
 
@@ -45,7 +47,11 @@ const getBabelOptions = ({ useESModules }) => ({
 const commonjsOptions = {
     include: /node_modules/,
     namedExports: {
-      'prop-types': Object.keys(propTypes)
+      'prop-types': Object.keys(propTypes),
+      'node_modules/react-is/index.js': [
+        'ForwardRef',
+        'Memo'
+      ]
     },
 };
 

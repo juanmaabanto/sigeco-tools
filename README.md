@@ -26,10 +26,14 @@ yarn add @sigeco/tools
 You can also use a global-friendly UMD build:
 
 ```html
-https://cdn.jsdelivr.net/npm/@sigeco/tools@latest/dist/sigeco-tools.umd.js
+https://cdn.jsdelivr.net/npm/@sigeco/tools@1.0.1/dist/sigeco-tools.umd.js
 
-https://cdn.jsdelivr.net/npm/@sigeco/tools@latest/dist/sigeco-tools.umd.min.js
+https://cdn.jsdelivr.net/npm/@sigeco/tools@1.0.1/dist/sigeco-tools.umd.min.js
 ```
+
+### ActionField API
+
+### FieldSet API
 
 ### Table API
 

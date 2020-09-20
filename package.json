@@ -1,6 +1,6 @@
 {
     "name": "@sigeco/tools",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Tools for sigeco",
     "license": "MIT",
     "homepage": "https://github.com/juanmaabanto/sigeco-tools",
@@ -57,6 +57,7 @@
         "@babel/preset-env": "^7.11.5",
         "@babel/preset-flow": "^7.10.4",
         "@babel/preset-react": "^7.10.4",
+        "@babel/runtime": "^7.11.2",
         "@material-ui/core": "^4.11.0",
         "babel-plugin-optimize-clsx": "^2.6.1",
         "date-fns": "^2.16.1",
