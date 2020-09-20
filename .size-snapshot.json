@@ -1,12 +1,12 @@
 {
   "sigeco-tools.umd.js": {
-    "bundled": 379891,
-    "minified": 131622,
-    "gzipped": 38728
+    "bundled": 169283,
+    "minified": 53008,
+    "gzipped": 14682
   },
   "sigeco-tools.umd.min.js": {
-    "bundled": 327531,
-    "minified": 112408,
-    "gzipped": 32856
+    "bundled": 139277,
+    "minified": 44924,
+    "gzipped": 12396
   }
 }
