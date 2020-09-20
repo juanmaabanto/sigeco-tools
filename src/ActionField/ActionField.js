@@ -1,20 +1,14 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import clsx from 'clsx';
 import IconButton from '@material-ui/core/IconButton';
 import InputAdornment from '@material-ui/core/InputAdornment';
 import TextField from '@material-ui/core/TextField';
-import withStyles from '@material-ui/core/styles/withStyles';
-
-export const styles = {
-  root: { }
-};
 
 const ActionField = React.forwardRef(function ActionField(props, ref) {
     const { 
         autoComplete = 'off', 
         autoFocus = false,
-        classes, 
+        classes,
         className,
         disabled = false,
         error = false,
@@ -46,7 +40,7 @@ const ActionField = React.forwardRef(function ActionField(props, ref) {
         <TextField
             autoComplete={autoComplete}
             autoFocus={autoFocus}
-            className={clsx(classes.root, className)}
+            className={className}
             disabled={disabled}
             error={error}
             fullWidth={fullWidth}
@@ -98,4 +92,4 @@ ActionField.propTypes = {
     variant: PropTypes.oneOf(['filled', 'outlined', 'standard'])
 };
 
-export default withStyles(styles)(ActionField);
+export default ActionField;

@@ -29,7 +29,6 @@ const globals = {
   '@material-ui/core/Paper': 'MaterialUI.Paper',
   '@material-ui/core/Select': 'MaterialUI.Select',
   '@material-ui/core/styles': 'MaterialUI',
-  '@material-ui/core/styles/withStyles': 'MaterialUI.withStyles',
   '@material-ui/core/TableSortLabel': 'MaterialUI.TableSortLabel',
   '@material-ui/core/TextField': 'MaterialUI.TextField',
   '@material-ui/core/Tooltip': 'MaterialUI.Tooltip'
